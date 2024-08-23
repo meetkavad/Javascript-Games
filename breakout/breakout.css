@@ -1,0 +1,44 @@
+.grid{
+    margin:100px 400px;
+    position: relative;
+    width : 560px;
+    height  : 300px;
+    border : solid black 1px;
+}
+
+.block{
+    position:absolute;
+    width:100px;
+    height:  20px;
+    background-color: red;
+
+}
+.userBlock{
+    position:absolute;
+    width:100px;
+    height:  20px;
+    background-color: green;
+
+}
+
+.ball{
+    position :absolute;
+    width :20px;
+     height: 20px;
+     border-radius : 10px;
+     background-color: blue;
+}
+
+#button{
+    display:none;
+   width:90px;
+   margin: auto;
+   text-align: center;
+}
+
+.text{
+    font-size : 80px;
+    width:400px;
+    text-align: center;
+    margin: auto;
+}
